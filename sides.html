@@ -10,25 +10,27 @@
   <link rel="Shortcut Icon" href="http://jpg.hoodamath.com/large/papaspizzeria_300x225.jpg">
 </head>
 <body>
-    <h1 align="center">Papa's Pizzeria</h1>
-    <h2 align="center">Menu</h2>
+  <h1 style="font-family: freestyle script" align="center"><font size="480">Papa's Pizzeria</font></h1>
+  <h2 style="font-family: freestyle script" align="center"><font size="480">Menu</font></h2>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Menu
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <li><a href="menu.html">Pizza</a></li>
+              <li><a href="sides.html">Sides</a></li>
+              <li><a href="desserts.html">Desserts</a></li>
+            </ul>
+        </div>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#">Locations <span class="sr-only">(current)</span></a>
             </li>
             <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Meals
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Games
                     <span class="caret"></span></button>
                     <ul class="dropdown-menu">
                       <li><a href="menu.html">Pizza</a></li>
@@ -36,9 +38,9 @@
                       <li><a href="desserts.html">Desserts</a></li>
                     </ul>
                 </div>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Social Media <span class="sr-only">(current)</span></a>
+                </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
